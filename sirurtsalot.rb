@@ -81,9 +81,9 @@ urt = Thread.new do
               parsed[0] = parsed[0].gsub('@', '#')
               msg = case team
                     when 'RED'
-                      "<\0035#{nickname}\003> asdf #{parsed[1]}"
+                      "<\0035#{nickname}\003> #{parsed[1]}"
                     when 'BLUE'
-                      "<\0032#{nickname}\003> fdsa #{parsed[1]}"
+                      "<\0032#{nickname}\003> #{parsed[1]}"
                     else
                       "<#{nickname}> #{parsed[1]}"
                       p team
