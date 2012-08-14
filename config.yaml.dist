@@ -1,0 +1,13 @@
+game:
+  server: games.tenthbit.net
+  port: null
+  rcon: WouldntYouLikeToKnow
+  logfile: "~/.q3a/q3ut4/games.log"
+
+irc:
+  server: irc.tenthbit.net
+  port: 6667
+  channels:
+    - "#codeblock"
+  nick: "UrbanTerror"
+  relay: true
